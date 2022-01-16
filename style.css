@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+.header{
+    display:flex;
+    height:80px;
+    overflow:hidden;
+}
+.header{
+    border-bottom:1px solid black;
+}
+.header .header-title {
+    width:300px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color:#3f3d56;
+    margin-right:auto;
+    display: block;
+    border-right:1px solid black;
+}
+.header .header-navigation{
+    margin-left:auto;
+    display: flex;
+    float:left;
+}
+.header .header-navigation div{
+    width:150px;
+    height:80px;
+    padding:30PX;
+    text-align: center;
+    border-left:1px solid black;
+}
+.header .header-navigation a{
+    text-decoration: none;
+}
+.header .header-navigation a div{
+    font-size: 20px;
+    font-weight: normal;
+    color:black;
+}
+.header .header-navigation div:hover{
+    background-color:#6c63ff;
+    color: white;
+}
+.header .header-navigation div a:hover{
+    color: white;
+}
+.front-page{
+    height:800px;
+
+}
+.front-page img{
+    height:550px;
+    float:right;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+
+}
+.quote{
+    display:block;
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    float:left;
+    font-size:70px;
+}
+.quote p{
+    font-size:25px;
+    width:500px;
+    text-align: justify-all;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 50% auto;
+    border-top:1px solid black;
+}
+.grid-container div .border-right{
+    border-bottom:1px solid black;
+    height:500px;
+}
+.grid-container div .border-left{
+    border-bottom:1px solid black;
+    height:500px;
+}
+.grid-container div img{
+    height:500px;
+    display: block;
+}
+.frmr80{
+    float:right;
+    margin-right:120px;
+}
+.flml80{
+    float:left;
+    margin-left:120px;
+}
+.border-left{
+    border-left:0.5px solid black;
+}
+.border-right{
+    border-right:0.5px solid black;
+}
+.grid-container .border-left .text-box{
+    font-size:50px;
+    margin-left:90px;
+    margin-top:120px;
+    height:200px;
+    width:500px;
+    text-align:center;
+    padding:30px;
+}
+.grid-container .border-right .text-box{
+
+    font-size:50px;
+    margin-left:300px;
+    margin-top:120px;
+    height:200px;
+    width:500px;
+    text-align:center;
+    padding:30px;
+}
+.grid-container .txt{
+    background-color:#3f3d56;
+    color:#6c63ff;
+}
+.text-box p{
+    font-size:20px;
+    color:white;
+}
+
